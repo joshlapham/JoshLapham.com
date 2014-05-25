@@ -6,6 +6,6 @@ License: [Beerware](https://en.wikipedia.org/wiki/Beerware)
 
 ### What This Is
 
-Website for [JoshLapham.com](http://joshlapham.com).
+Personal website located @ [JoshLapham.com](http://joshlapham.com)
 
 Built with [Jekyll](http://jekyllrb.com/).
