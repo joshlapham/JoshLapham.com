@@ -24,7 +24,7 @@ h2 {
 }
 
 /* Increase font size of these certain sections */
-#about, #portfolio, #contact {
+#about, #portfolio, #skills, #contact {
 	font-size: 1.4em;
 }
 
@@ -34,6 +34,10 @@ h2 {
 }
 
 #portfolio {
+	padding-bottom: 1%;
+}
+
+#skills {
 	padding-bottom: 1%;
 }
 
@@ -62,4 +66,9 @@ footer {
 
 #social-icons li {
 	padding: 0;
+}
+
+/* Skills list shown when Info button pressed */
+#skills {
+	font-size: 1.2em;
 }
