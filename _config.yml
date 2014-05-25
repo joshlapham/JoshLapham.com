@@ -1,0 +1,14 @@
+name: Josh Lapham 
+tagline: 'Huge nerd.'
+author:
+  name: Josh Lapham
+  email: josh@joshlapham.com
+  twitter: j_lap
+  github: joshlapham
+shorturl: joshlapham.com
+markdown: redcarpet
+pygments: true
+timezone: Australia/Sydney
+exclude: [README.md]
+safe: true
+permalink: pretty

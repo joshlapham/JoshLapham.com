@@ -1,0 +1,65 @@
+/* Custom CSS */
+.page-header {
+	/* Get rid of line under page header */
+	border-bottom: none;
+	/* Get rid of padding between page title and top of page */
+	margin: 0;
+}
+
+/* Center the header text */
+.title {
+	text-align: center;
+	font-size: 3.5em;
+}
+
+/* Get rid of underline under all links when hovering */
+a:hover {
+	text-decoration: none;
+}
+
+/* Add line under other page headers */
+h2 {
+	padding-bottom: 1%;
+	border-bottom: 1px solid #EEEEEE;
+}
+
+/* Increase font size of these certain sections */
+#about, #portfolio, #contact {
+	font-size: 1.4em;
+}
+
+/* Add slight amount of padding under each section */
+#about {
+	padding-bottom: 2%;
+}
+
+#portfolio {
+	padding-bottom: 1%;
+}
+
+footer {
+	padding-bottom: 5%;
+}
+
+/* Thumbnail boxes */
+.thumbnail {
+	/* Get rid of border around thumbnail boxes */
+	border: none;
+}
+
+.thumbnail .btn {
+	margin-top: 2%;
+}
+
+.thumbnail img {
+	padding-top: 4%;
+}
+
+/* Social media icons */
+#social-icons {
+	text-align: center;
+}
+
+#social-icons li {
+	padding: 0;
+}
