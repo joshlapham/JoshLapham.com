@@ -7,7 +7,7 @@ author:
   github: joshlapham
 shorturl: joshlapham.com
 markdown: redcarpet
-pygments: true
+highlighter: pygments
 timezone: Australia/Sydney
 exclude: [README.md]
 safe: true
