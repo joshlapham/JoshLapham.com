@@ -1,21 +1,23 @@
-_site
-.deploy.sh
-
-# Fancybox source files
-# Can be downloaded from - https://github.com/fancyapps/fancyBox
-assets/fancybox
+# Created by https://www.gitignore.io/api/osx,jekyll,vim,bower
 
 ### OSX ###
 .DS_Store
 .AppleDouble
 .LSOverride
 
+# Icon must end with two \r
+Icon
+
 # Thumbnails
 ._*
 
-# Files that might appear on external disk
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
 .Spotlight-V100
+.TemporaryItems
 .Trashes
+.VolumeIcon.icns
 
 # Directories potentially created on remote AFP share
 .AppleDB
@@ -23,3 +25,26 @@ assets/fancybox
 Network Trash Folder
 Temporary Items
 .apdisk
+
+### Jekyll ###
+_site/
+.sass-cache/
+.jekyll-metadata
+
+### Vim ###
+# swap
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+# session
+Session.vim
+# temporary
+.netrwhist
+*~
+# auto-generated tag files
+tags
+
+### Bower ###
+vendor
+.bower-cache
+.bower-registry
+.bower-tmp

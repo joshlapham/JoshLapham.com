@@ -1,0 +1,22 @@
+{
+  "name": "JoshLapham.com",
+  "authors": [
+    "Josh Lapham <josh@joshlapham.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "Beerware",
+  "homepage": "http://joshlapham.com",
+  "private": false,
+  "ignore": [
+    "**/.*",
+    "vendor",
+    ".git"
+  ],
+  "dependencies": {
+    "bootstrap": "3.1.1",
+    "jquery": "1.11.1",
+    "fancybox": "2.1.5"
+  }
+}

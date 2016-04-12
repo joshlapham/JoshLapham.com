@@ -1,4 +1,4 @@
-name: Josh Lapham 
+name: Josh Lapham
 tagline: 'Huge nerd.'
 author:
   name: Josh Lapham
@@ -9,6 +9,6 @@ shorturl: joshlapham.com
 markdown: redcarpet
 highlighter: pygments
 timezone: Australia/Sydney
-exclude: [README.md]
+exclude: [README.md, bower.json]
 safe: true
 permalink: pretty
