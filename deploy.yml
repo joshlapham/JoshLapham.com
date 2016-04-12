@@ -1,0 +1,10 @@
+---
+- hosts: web
+  tasks:
+  - name: Deploy codebase to server
+    copy:
+      src: _site/
+      dest: /var/www/joshlapham.com/
+      mode: 0644
+      owner: www-data
+      group: www-data
