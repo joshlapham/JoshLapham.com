@@ -2,9 +2,14 @@
 - hosts: web
   tasks:
   - name: Deploy codebase to server
-    copy:
+    synchronize:
       src: _site/
       dest: /var/www/joshlapham.com/
+
+  - name: Set permissions for /var/www/joshlapham.com
+    file:
+      path: /var/www/joshlapham.com
       mode: 0644
       owner: www-data
       group: www-data
+      recurse: yes
