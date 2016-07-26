@@ -1,7 +1,7 @@
-/* Custom CSS */
 .page-header {
 	/* Get rid of line under page header */
 	border-bottom: none;
+
 	/* Get rid of padding between page title and top of page */
 	margin: 0;
 }
@@ -28,21 +28,13 @@ h2 {
 	font-size: 1.4em;
 }
 
-/* Add slight amount of padding under each section */
+/* Space sections out a bit */
 #about {
-	padding-bottom: 2%;
-}
-
-#portfolio {
-	padding-bottom: 1%;
-}
-
-#skills {
-	padding-bottom: 1%;
+	padding-bottom: 1.5em;
 }
 
 footer {
-	padding-bottom: 5%;
+	padding-bottom: 3em;
 }
 
 /* Thumbnail boxes */
@@ -66,9 +58,4 @@ footer {
 
 #social-icons li {
 	padding: 0;
-}
-
-/* Skills list shown when Info button pressed */
-#skills {
-	font-size: 1.2em;
 }
