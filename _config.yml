@@ -9,6 +9,6 @@ shorturl: joshlapham.com
 markdown: redcarpet
 highlighter: pygments
 timezone: Australia/Sydney
-exclude: [README.md, bower.json, deploy.yml]
+exclude: [README.md, bower.json, deploy.yml, cfg]
 safe: true
 permalink: pretty
