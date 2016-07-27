@@ -6,7 +6,7 @@
 	margin: 0;
 }
 
-/* Center the header text */
+/* Center header text */
 .title {
 	text-align: center;
 	font-size: 3.5em;
@@ -23,8 +23,8 @@ h2 {
 	border-bottom: 1px solid #EEEEEE;
 }
 
-/* Increase font size of these certain sections */
-#about, #portfolio, #skills, #contact {
+/* Increase font size for sections */
+#about, #portfolio, #contact {
 	font-size: 1.4em;
 }
 
@@ -39,7 +39,6 @@ footer {
 
 /* Thumbnail boxes */
 .thumbnail {
-	/* Get rid of border around thumbnail boxes */
 	border: none;
 }
 
